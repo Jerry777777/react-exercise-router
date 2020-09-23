@@ -1,0 +1,16 @@
+h3 { 
+    margin: 10px 40px;
+    font-size: 1em;
+}
+
+#products a, #products a:visited{
+    display: block;
+    margin: 10px 40px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product p {
+    font-weight: 400;
+} 
