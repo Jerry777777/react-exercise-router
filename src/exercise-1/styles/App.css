@@ -1,0 +1,52 @@
+.app {
+    width: 35%;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid darkgray;
+}
+
+nav {
+    height: 50px;
+    background-color: #cccccc;
+    border: 1px solid darkgray;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin: 0;
+}
+
+li {
+    margin: 10px 20px;
+}
+
+a {
+    color: #575b5b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: underline;
+}
+
+.website {
+    text-decoration: underline;
+}
+
+.website:active {
+    color: red;
+}
+
+p {
+    margin-left: 40px;
+    color: #575b5b;
+    font-weight: bold;
+}
+
+.about-us p:nth-child(2) {
+    margin-bottom: 30px;
+} 
