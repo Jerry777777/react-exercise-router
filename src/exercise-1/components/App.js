@@ -16,7 +16,7 @@ class App extends Component {
             <nav>
               <ul>
                 <li>
-                  <Link exact to="/">Home</Link>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
                 <Link to="/products">Products</Link>
@@ -31,19 +31,18 @@ class App extends Component {
             </nav>
 
             <Switch>
-              <Route exact path="/" component={Home} >
+              <Route exact path="/" >
                 <Home />
               </Route>
-              <Route path="/my-profile" component={MyProfile}>
+              <Route path="/my-profile">
                 <MyProfile />
               </Route>
-              <Route path="/about-us" component={AboutUs}>
+              <Route path="/about-us" >
                 <AboutUs />
               </Route>
-              <Route path="/products/:id" component={Product}>
-                <Product/>
+              <Route path="/products/:id" component = {Product}>
               </Route>
-              <Route path="/products" component={Products}>
+              <Route path="/products" >
                 <Products/>
               </Route>
               <Redirect from='/goods' to='/products' />
